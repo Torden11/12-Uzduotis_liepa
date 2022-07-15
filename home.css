@@ -1,0 +1,76 @@
+@import './base.css';
+
+.container {
+    width: 800px;
+    margin: 80px calc(50% - 400px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.title {
+    align-self: self-start;
+    margin-left: 75px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.form {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form input,
+.form textarea {
+    font-size: 20px;
+    width: 100%;
+    line-height: 1.2em;
+    padding: 0.4em 0.4em;
+    border: none;
+    background-color: #E7E9FE;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.form textarea {
+    min-height: 100px;
+    max-height: 400px;
+    resize: vertical;
+}
+
+::placeholder {
+    color: #233BF5;
+    text-transform: capitalize;
+}
+
+.form > button {
+     justify-self: end;
+    background-color: #233BF5;
+    color: #ffff;
+    border: none;
+    font-size: 18px;
+    padding: 1em 3.2em;
+    border-radius: 1.5em;
+}
+
+.form-group-2 {
+    background-color: #C7CDFD;
+}
+
+.form-group-3 {
+    background-color: #A5B1FD;
+}
+
+
+
+.bottom-text {
+    align-self: self-start;
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
